@@ -2,7 +2,7 @@ Develop a sushi website showcasing popular food, trending sushi, and drinks usin
 
 Tech Used: HTML, CSS, Vite
 
-🔋 Features
+Features:
 👉 CSS Variables: Utilize CSS variables to maintain a consistent and easily adjustable styling approach throughout the project
 
 👉 Importing CSS Files: Import CSS files into others, promoting modularity and organization in styling.
@@ -18,11 +18,3 @@ Tech Used: HTML, CSS, Vite
 👉 Organized File and Folder Structure: Maintain a well-organized file and folder structure for easy navigation and management of project assets.
 
 👉 Responsive Design: The application is completely responsive across all devices, employing responsive design techniques such as media queries and fluid layouts.
-
-all these while creating the sushi website with,
-
-Navigation Bar
-Creative Hero Section
-About Us Section
-Popular Food, Trending Sushi, and Drinks Sections
-Newsletter Signup and Footer
