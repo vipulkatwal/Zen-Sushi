@@ -1,0 +1,55 @@
+.footer {
+	width: 100%; /* Full width */
+	padding: 20px 40px; /* Padding inside the footer */
+	background: var(--color-white); /* Background color */
+	flex-wrap: wrap; /* Allow wrapping of flex items */
+	gap: 20px; /* Gap between flex items */
+	overflow: hidden; /* Hide overflow */
+}
+
+.footer__logo {
+	font-size: 24px; /* Font size */
+	font-weight: bold; /* Font weight */
+	font-family: var(--playfair-display); /* Font family */
+	text-transform: uppercase; /* Uppercase text */
+	color: var(--secondary-color); /* Text color */
+	cursor: pointer; /* Cursor style */
+}
+
+.footer__logo span {
+	color: var(--primary-color); /* Color for specific span elements */
+}
+
+.footer ul {
+	list-style: none; /* Remove default list styles */
+	display: flex; /* Display as flex container */
+	flex-wrap: wrap; /* Allow wrapping of list items */
+	flex-direction: row; /* Arrange items in a row */
+	gap: 64px; /* Gap between list items */
+}
+
+.footer ul:last-child {
+	gap: 32px; /* Reduce gap for the last list element */
+}
+
+.footer__nav li {
+	font-size: 16px; /* Font size */
+	font-weight: 500; /* Font weight */
+	font-family: var(--plus-jakarta-sans); /* Font family */
+	text-transform: uppercase; /* Uppercase text */
+	color: var(--secondary-color); /* Text color */
+	cursor: pointer; /* Cursor style */
+}
+
+.footer__social li {
+	width: 42px; /* Width of social icons */
+	height: 42px; /* Height of social icons */
+	background-color: var(--secondary-color); /* Background color */
+	border-radius: 100%; /* Rounded border */
+}
+
+.footer__social li img {
+	width: 45%; /* Size of social icons */
+	height: 45%; /* Size of social icons */
+	object-fit: contain; /* Ensure icons fit within their container */
+}

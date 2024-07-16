@@ -1,0 +1,73 @@
+.about-us {
+	display: flex; /* Flex container for the about section */
+	min-height: 720px; /* Minimum height to ensure content is visible */
+	overflow: hidden; /* Hide overflow to prevent scrollbars */
+}
+
+.about-us__image {
+	flex: 1; /* Flex grow to fill available space */
+	display: flex; /* Flex container for image area */
+	flex-direction: column; /* Arrange children in a column */
+	justify-content: center; /* Center content vertically */
+	background: var(--color-white); /* Background color */
+	position: relative; /* Relative positioning for child elements */
+}
+
+.about-us__image div {
+	padding: 32px 64px; /* Padding around image area */
+	flex: 1; /* Flex grow to fill available space */
+	display: flex; /* Flex container for image content */
+	align-items: center; /* Center items vertically */
+	background-position: center; /* Center background image */
+	background-repeat: no-repeat; /* Prevent background image from repeating */
+	background-size: contain; /* Ensure background image fits container */
+}
+
+.about-us__image-sushi3 {
+	border-bottom: 8px solid var(--color-creamson); /* Bottom border styling */
+	background-image: url("../../assets/about_bg1.png"); /* Background image for section */
+}
+
+.about-us__image-sushi2 {
+	background-image: url("../../assets/about_bg2.png"); /* Background image for section */
+}
+
+.about-us__image-sushi3 img {
+	width: 225px; /* Image width */
+	height: 200px; /* Image height */
+}
+
+.about-us__image-sushi2 img {
+	width: 240px; /* Image width */
+	height: 160px; /* Image height */
+}
+
+.about-us__button {
+	position: absolute; /* Absolute positioning */
+	right: 0; /* Positioned to the right */
+	padding: 12px 32px; /* Padding around button */
+	min-height: 64px; /* Minimum height of button */
+	background: var(--secondary-color); /* Background color */
+	border-radius: 32px 0 0 32px; /* Rounded border on the left */
+	border: 0; /* No border */
+	outline: 0; /* No outline */
+	color: #fff; /* Text color */
+	font-family: var(--plus-jakarta-sans); /* Font family */
+	font-weight: 500; /* Font weight */
+	font-size: 18px; /* Font size */
+	line-height: 23px; /* Line height */
+	cursor: pointer; /* Cursor style */
+}
+
+.about-us__button img {
+	object-fit: contain; /* Ensure image fits container */
+	margin-left: 32px; /* Margin to the left of the image */
+}
+
+.about-us__content {
+	padding: 64px; /* Padding around content */
+	flex: 1; /* Flex grow to fill available space */
+	display: flex; /* Flex container for content */
+	justify-content: center; /* Center content horizontally */
+	flex-direction: column; /* Arrange children in a column */
+}
