@@ -1,6 +1,6 @@
 # Zen Sushi Project 🍣🍱🥢
 
-![Zen Sushi Screenshot](./public/zen-shushi)
+![Zen Sushi Screenshot](./public/zen-shushi.png)
 
 
 ## About 📖
